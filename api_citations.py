@@ -1,21 +1,24 @@
-# Importation Bibliothéque requests pour envoyer des requetes HTTP
+# Importation de la bibliothéque requests pour envoyer des requetes HTTP
 import requests
 
-citations =[]
-def get_citation():
-    url = "http://api.quotable.io/random" 
-    
-    for i in range(5):
-        response = requests.get(url)
+citations = []
 
-        if response.status_code == 200:  # la requete a reussi 
-            data= response.json()
+def get_citation():
+    url = "http://api.quotable.io/quotes/random?limit=6"
+
+    response = requests.get(url)
+
+    if response.status_code == 200:  # La requete a réussi
+        datas = response.json()
+
+        for data in datas:
             citations.append({
-            "citation": data["content"],
-            "auteur": data["author"]})
-            
-    
-        else:                            # la requete a  échoué 
-            print("Erreur :", response.status_code)
-            return []
-    return  citations
+                "citation": data["content"],
+                "auteur": data["author"]
+            })
+
+        return citations
+
+    else:  # La requete a échoué
+        print("Erreur :", response.status_code)
+        return []
