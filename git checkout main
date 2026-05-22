@@ -1,0 +1,30 @@
+* [31m3b44aa0[m -[33m (origin/malick)[m <Docs Mise à jour du README [32m(14 minutes ago) [1;34m<Malick FALL>[m
+[31m|[m *   [31me912a75[m -[33m (develop)[m Merge branch 'develop' of https://github.com/emfall2015/citation into develop [32m(19 minutes ago) [1;34m<yassine Bessaim>[m
+[31m|[m [32m|[m[33m\[m  
+[31m|[m [32m|[m *   [31m9e51d80[m -[33m (origin/develop)[m Merge pull request #4 from emfall2015/malick [32m(25 minutes ago) [1;34m<El Hadji Malick FALL>[m
+[31m|[m [32m|[m [34m|[m[31m\[m  
+[31m|[m [32m|[m[31m_[m[34m|[m[31m/[m  
+[31m|[m[31m/[m[32m|[m [34m|[m   
+* [32m|[m [34m|[m [31mefe3868[m -[33m[m <Docs> Mise à jour du README [32m(26 minutes ago) [1;34m<Malick FALL>[m
+[35m|[m [32m|[m *   [31m0a99909[m -[33m[m Merge pull request #3 from emfall2015/malick [32m(34 minutes ago) [1;34m<El Hadji Malick FALL>[m
+[35m|[m [32m|[m [36m|[m[35m\[m  
+[35m|[m [32m|[m[35m_[m[36m|[m[35m/[m  
+[35m|[m[35m/[m[32m|[m [36m|[m   
+* [32m|[m [36m|[m [31mac2ff5e[m -[33m[m <Feat> Afficher plusieurs citations distinctes [32m(35 minutes ago) [1;34m<Malick FALL>[m
+[1;31m|[m [32m|[m *   [31m9e963cd[m -[33m[m Merge pull request #2 from emfall2015/malick [32m(2 days ago) [1;34m<El Hadji Malick FALL>[m
+[1;31m|[m [32m|[m [1;32m|[m[1;31m\[m  
+[1;31m|[m [32m|[m[1;31m_[m[1;32m|[m[1;31m/[m  
+[1;31m|[m[1;31m/[m[32m|[m [1;32m|[m   
+* [32m|[m [1;32m|[m [31mf272660[m -[33m[m <Feat> Creation de l'API citation [32m(2 days ago) [1;34m<Malick FALL>[m
+[1;32m|[m [32m|[m[1;32m/[m  
+[1;32m|[m[1;32m/[m[32m|[m   
+* [32m|[m   [31me41320b[m -[33m[m Merge pull request #1 from emfall2015/yassine [32m(2 days ago) [1;34m<El Hadji Malick FALL>[m
+[1;34m|[m[1;35m\[m [32m\[m  
+[1;34m|[m [1;35m|[m * [31m609e4a0[m -[33m (origin/yassine, yassine, docs/réalisation_du_CONTRIBUTING.md)[m Merge branch 'docs/redaction_README.md' into yassine [32m(30 minutes ago) [1;34m<yassine Bessaim>[m
+[1;34m|[m [1;35m|[m[1;35m/[m[31m|[m 
+[1;34m|[m [1;35m|[m * [31m3d975ad[m -[33m (docs/redaction_README.md)[m réalisation début de la docs [32m(31 minutes ago) [1;34m<yassine Bessaim>[m
+[1;34m|[m [1;35m|[m[1;34m/[m  
+[1;34m|[m[1;34m/[m[1;35m|[m   
+[1;34m|[m * [31m7056668[m -[33m (feat/afficher_une_citation)[m on peut désormer afficher une citation [32m(2 days ago) [1;34m<yassine Bessaim>[m
+[1;34m|[m[1;34m/[m  
+* [31m4ba5c46[m -[33m (HEAD -> main, origin/main, origin/HEAD)[m first commit [32m(2 days ago) [1;34m<Malick FALL>[m
