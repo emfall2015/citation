@@ -2,10 +2,11 @@
 
 from api_citations import get_citation
 
-citation_data = get_citation()
+citations = get_citation()
+
 
 # création du HTML dynamique
-html = f"""
+html = """
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -15,14 +16,22 @@ html = f"""
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body>"""
+
+# Ajout dynamique des citations
+for i, citation in enumerate(citations, start=1):
+    html += f"""
     <div class="card">
-    <h1>Citation du jour</h1>
-    <p>{citation_data["content"]}</p>
-    <div class="author">
-        {citation_data["author"]}
-    </div>
-    </div>
+        <h1>Citation {i}</h1>
+        <p>{citation["citation"]}</p>
+        <div class="author">
+            {citation["auteur"]}
+        </div>
+    </div> 
+    <br>
+    """
+# Fermeture du HTML
+html += """
 </body>
 </html>
 """
