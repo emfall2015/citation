@@ -1,15 +1,4 @@
 # citation
-<<<<<<< HEAD
-
-génerer des citations aléatoire qu'on récupère via une API http://api.quotable.io/random puis l'afficher sur une page web
-
-#OBJECTIF
--travailler sur l'utilisation d'api avec python
--Liaison donnée Api
--Traitement de données en JSON
--Utilisation de la blibliothèque request
-
-=======
 ##Description 
 
 Ce projet est une application Python capable de récupérer automatiquement des citations depuis une API publique puis de générer une page HTML stylisée présentant ces citations sous forme visuelle.
@@ -71,4 +60,3 @@ py main.py
 ##Licence 
 
 Simplon tout droits réservés
->>>>>>> 98d135fc41487c68d5fc6559abc90eb8f3d58d7b
